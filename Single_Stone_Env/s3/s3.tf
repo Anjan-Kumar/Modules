@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "terraform-poc-arlo"
+  bucket = "terraform_S3_Sample_bucket"
   acl    = "private"
 
   tags {
