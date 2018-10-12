@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Single_Stone_Env",
+    "\\Single_Stone_Env\\lambda",
+    "\\Single_Stone_Env\\modular",
+    "\\Single_Stone_Env\\modular\\environments",
+    "\\Single_Stone_Env\\modular\\environments\\dev",
+    "\\Single_Stone_Env\\s3"
+  ],
+  "SelectedNode": "\\Single_Stone_Env\\modular\\environments\\dev",
+  "PreviewInSolutionExplorer": false
+}

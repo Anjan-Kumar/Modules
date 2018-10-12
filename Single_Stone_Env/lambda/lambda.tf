@@ -2,8 +2,8 @@
 #Sample Lambda Function
 ################################################################
 provider "aws" {
-  access_key = "AKIAICQX25RZ33KASBGA"
-  secret_key = "R066uWWTiblpH9Xa+pkxXd7lyzCxlcd3GObWi9jt"
+  access_key = ""
+  secret_key = ""
   region = "us-east-2"
 }
 
@@ -27,7 +27,7 @@ EOF
 }
 
 resource "aws_lambda_function" "demo_lambda" {
-    function_name = "terraform-poc-arlo"
+    function_name = "terraform-Lambda_SampleFunction"
     handler = "index.handler"
     runtime = "nodejs6.10"
     filename = "function.zip"
